@@ -1,0 +1,451 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you prefer to learn new concepts with AI?",
+      "type": "MCQ",
+      "options": ["Step-by-step detailed guidance", "Quick overview", "Hands-on experimentation", "Explore examples yourself"],
+      "sub_traits": ["learning_style"]
+    },
+    {
+      "id": 2,
+      "question": "When faced with ambiguity, how do you respond?",
+      "type": "MCQ",
+      "options": ["Seek clarity immediately", "Explore options cautiously", "Trust intuition", "Experiment freely"],
+      "sub_traits": ["decision_making", "ambiguity_tolerance"]
+    },
+    {
+      "id": 3,
+      "question": "How would you describe your risk tolerance in decision-making?",
+      "type": "MCQ",
+      "options": ["Low", "Moderate", "High", "Very high"],
+      "sub_traits": ["risk_tolerance"]
+    },
+    {
+      "id": 4,
+      "question": "Describe a scenario where you solved a problem creatively.",
+      "type": "free-text",
+      "sample_options": [
+        "I systematically analyzed the problem and generated multiple solutions before choosing the best one.",
+        "I relied on intuition and spontaneous ideas to create an innovative solution.",
+        "I collaborated with others (or AI) to combine different perspectives into a creative outcome.",
+        "I experimented freely, testing unconventional approaches until something worked."
+      ],
+      "sub_traits": ["creativity", "problem_solving"]
+    },
+    {
+      "id": 5,
+      "question": "How do you prefer AI to communicate with you?",
+      "type": "MCQ",
+      "options": ["Formal and structured", "Balanced", "Informal and conversational", "Playful / humorous"],
+      "sub_traits": ["communication_style", "tone"]
+    },
+    {
+      "id": 6,
+      "question": "When collaborating with AI, what is your preference?",
+      "type": "MCQ",
+      "options": ["Solo / guided", "Step-by-step collaboration", "Open-ended co-creative", "Flexible depending on task"],
+      "sub_traits": ["collaboration_style", "engagement_style"]
+    },
+    {
+      "id": 7,
+      "question": "How do you prioritize ethical considerations in problem-solving?",
+      "type": "MCQ",
+      "options": ["Always first", "Often", "Sometimes", "Rarely"],
+      "sub_traits": ["ethics_focus", "moral_rigidity"]
+    },
+    {
+      "id": 8,
+      "question": "Rate your patience when learning a complex topic.",
+      "type": "MCQ",
+      "options": ["High", "Medium", "Low", "Very low"],
+      "sub_traits": ["patience", "learning_style"]
+    },
+    {
+      "id": 9,
+      "question": "How would you describe your preferred depth of explanation?",
+      "type": "MCQ",
+      "options": ["Shallow / overview", "Moderate", "Detailed", "Exhaustive"],
+      "sub_traits": ["learning_style", "detail_orientation"]
+    },
+    {
+      "id": 10,
+      "question": "How do you approach AI suggestions?",
+      "type": "MCQ",
+      "options": ["Always follow", "Evaluate carefully", "Test then adapt", "Rarely follow without modification"],
+      "sub_traits": ["decision_making", "risk_tolerance"]
+    },
+    {
+      "id": 11,
+      "question": "Give an example of a time you adapted quickly to new technology.",
+      "type": "free-text",
+      "sample_options": [
+        "I learned and applied the technology immediately on my own.",
+        "I observed others first, then applied it carefully.",
+        "I collaborated with a team or AI to understand and adopt it.",
+        "I experimented freely until I found a working method."
+      ],
+      "sub_traits": ["adaptability", "problem_solving"]
+    },
+    {
+      "id": 12,
+      "question": "How important is creativity in your work or projects?",
+      "type": "MCQ",
+      "options": ["Essential", "Important", "Nice-to-have", "Not important"],
+      "sub_traits": ["creativity", "motivation"]
+    },
+    {
+      "id": 13,
+      "question": "How do you structure your decision-making process?",
+      "type": "MCQ",
+      "options": ["Stepwise / methodical", "Analytical but flexible", "Intuitive", "Ad-hoc"],
+      "sub_traits": ["decision_making", "analytical_vs_intuitive"]
+    },
+    {
+      "id": 14,
+      "question": "Which best describes your collaboration style with tools/AI?",
+      "type": "MCQ",
+      "options": ["Instruction follower", "Collaborative partner", "Exploratory", "Self-directed"],
+      "sub_traits": ["collaboration_style", "engagement_style"]
+    },
+    {
+      "id": 15,
+      "question": "How do you prefer feedback from AI?",
+      "type": "MCQ",
+      "options": ["Direct and actionable", "Balanced", "Suggestive / optional", "Minimal"],
+      "sub_traits": ["feedback_preference", "communication_style"]
+    },
+    {
+      "id": 16,
+      "question": "What motivates you most in problem-solving?",
+      "type": "MCQ",
+      "options": ["Accuracy", "Efficiency", "Creativity", "Exploration"],
+      "sub_traits": ["motivation", "problem_solving"]
+    },
+    {
+      "id": 17,
+      "question": "How do you balance short-term vs long-term goals?",
+      "type": "MCQ",
+      "options": ["Short-term focused", "Long-term focused", "Mixed depending on task", "Adaptive"],
+      "sub_traits": ["goal_orientation", "planning_style"]
+    },
+    {
+      "id": 18,
+      "question": "Describe your approach to testing AI suggestions under time pressure.",
+      "type": "free-text",
+      "sample_options": [
+        "I prioritize quick validation with small tests, then integrate fully.",
+        "I test cautiously, step by step.",
+        "I collaborate or consult others before deciding.",
+        "I experiment freely until a viable approach emerges."
+      ],
+      "sub_traits": ["decision_making", "risk_tolerance", "adaptability"]
+    },
+    {
+      "id": 19,
+      "question": "How important is consistency in AI responses to you?",
+      "type": "MCQ",
+      "options": ["Very important", "Important", "Moderately important", "Not important"],
+      "sub_traits": ["learning_style", "patience"]
+    },
+    {
+      "id": 20,
+      "question": "How would you rate your curiosity in exploring new ideas?",
+      "type": "MCQ",
+      "options": ["Very high", "High", "Moderate", "Low"],
+      "sub_traits": ["curiosity", "openness"]
+    },
+    {
+      "id": 21,
+      "question": "How do you prefer AI to handle ambiguity?",
+      "type": "MCQ",
+      "options": ["Provide guidance", "Suggest options", "Explore freely", "Leave decision to me"],
+      "sub_traits": ["decision_making", "ambiguity_tolerance"]
+    },
+    {
+      "id": 22,
+      "question": "How do you respond to conflicting advice from AI?",
+      "type": "MCQ",
+      "options": ["Follow most reliable source", "Evaluate logically", "Test both approaches", "Prefer to ignore"],
+      "sub_traits": ["decision_making", "problem_solving"]
+    },
+    {
+      "id": 23,
+      "question": "Rate your tolerance for experimental / untested suggestions.",
+      "type": "MCQ",
+      "options": ["High", "Moderate", "Low", "Avoid"],
+      "sub_traits": ["risk_tolerance", "creativity"]
+    },
+    {
+      "id": 24,
+      "question": "Describe a time you relied on AI to enhance creativity.",
+      "type": "free-text",
+      "sample_options": [
+        "I used AI ideas as a foundation and added my own creative edits.",
+        "I followed AI suggestions but made small tweaks.",
+        "I collaborated closely with AI to combine ideas.",
+        "I experimented freely using AI as a tool for inspiration."
+      ],
+      "sub_traits": ["creativity", "collaboration_style"]
+    },
+    {
+      "id": 25,
+      "question": "How often do you incorporate AI suggestions in your work?",
+      "type": "MCQ",
+      "options": ["Always", "Frequently", "Sometimes", "Rarely"],
+      "sub_traits": ["engagement_style", "motivation"]
+    },
+    {
+      "id": 26,
+      "question": "Describe your ideal AI assistant’s behavior in a collaborative project.",
+      "type": "free-text",
+      "sample_options": [
+        "AI anticipates my next steps and explains reasoning.",
+        "AI provides clear guidance and suggestions for me to evaluate.",
+        "AI collaborates interactively, offering multiple perspectives.",
+        "AI freely experiments, providing novel ideas without restrictions."
+      ],
+      "sub_traits": ["collaboration_style", "communication_style"]
+    },
+    {
+      "id": 27,
+      "question": "How do you handle setbacks in problem-solving?",
+      "type": "MCQ",
+      "options": ["Analyze and retry", "Try a new approach", "Seek guidance", "Take a break"],
+      "sub_traits": ["problem_solving", "resilience"]
+    },
+    {
+      "id": 28,
+      "question": "How do you approach complex multi-step problems?",
+      "type": "MCQ",
+      "options": ["Stepwise", "Prioritize key steps", "Experiment", "Flexible / adaptive"],
+      "sub_traits": ["problem_solving", "analytical_vs_intuitive"]
+    },
+    {
+      "id": 29,
+      "question": "How do you prefer AI explanations to be formatted?",
+      "type": "MCQ",
+      "options": ["Bullet points", "Narrative", "Visual / structured", "Mixed"],
+      "sub_traits": ["learning_style", "communication_style"]
+    },
+    {
+      "id": 30,
+      "question": "How do you weigh creativity vs accuracy?",
+      "type": "MCQ",
+      "options": ["Accuracy first", "Balanced", "Creativity first", "Task-dependent"],
+      "sub_traits": ["creativity", "decision_making"]
+    },
+    {
+      "id": 31,
+      "question": "How do you incorporate ethical reasoning in AI-assisted decisions?",
+      "type": "MCQ",
+      "options": ["Always", "Often", "Sometimes", "Rarely"],
+      "sub_traits": ["ethics_focus", "moral_rigidity"]
+    },
+    {
+      "id": 32,
+      "question": "Describe your preferred level of autonomy in AI collaboration.",
+      "type": "free-text",
+      "sample_options": [
+        "AI suggests options but I retain final control.",
+        "AI handles routine tasks while I focus on decision-making.",
+        "AI collaborates interactively on each step.",
+        "AI experiments freely, providing options for me to choose from."
+      ],
+      "sub_traits": ["collaboration_style", "decision_making"]
+    },
+    {
+      "id": 33,
+      "question": "How much do you rely on intuition vs data?",
+      "type": "MCQ",
+      "options": ["Data only", "Mostly data", "Mostly intuition", "Intuition only"],
+      "sub_traits": ["analytical_vs_intuitive", "decision_making"]
+    },
+    {
+      "id": 34,
+      "question": "How do you handle iterative problem-solving?",
+      "type": "MCQ",
+      "options": ["Methodical iterations", "Flexible", "Trial & error", "Rapid exploration"],
+      "sub_traits": ["problem_solving", "adaptability"]
+    },
+    {
+      "id": 35,
+      "question": "Provide an example where AI adapted to your personal style.",
+      "type": "free-text",
+      "sample_options": [
+        "AI began prioritizing examples and explanations as I requested.",
+        "AI suggested improvements while respecting my workflow.",
+        "AI adapted collaboratively through interaction with me.",
+        "AI experimented and learned independently, adjusting to my style."
+      ],
+      "sub_traits": ["adaptability", "engagement_style"]
+    }
+  ],
+  "optional_deep_dive": [
+    {
+      "id": 36,
+      "question": "Describe a situation where you had to make a difficult ethical decision.",
+      "type": "free-text",
+      "sample_options": [
+        "I prioritized fairness over efficiency.",
+        "I considered rules strictly before making a choice.",
+        "I balanced multiple perspectives for a compromise.",
+        "I trusted my intuition to guide the ethical outcome."
+      ]
+    },
+    {
+      "id": 37,
+      "question": "How do you respond to unexpected errors or failures?",
+      "type": "free-text",
+      "sample_options": [
+        "Analyze and correct systematically.",
+        "Seek advice before acting.",
+        "Experiment freely to find a solution.",
+        "Adapt and learn quickly from mistakes."
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Give an example of a time you explored a completely new domain.",
+      "type": "free-text",
+      "sample_options": [
+        "I learned on my own using tutorials and practice.",
+        "I observed experts first, then applied learning.",
+        "I collaborated with peers or AI to explore.",
+        "I experimented and iterated freely to gain knowledge."
+      ]
+    },
+    {
+      "id": 39,
+      "question": "How do you manage conflicting priorities in projects?",
+      "type": "free-text",
+      "sample_options": [
+        "Prioritize by importance and follow systematically.",
+        "Collaborate with others to determine focus.",
+        "Adaptively adjust priorities based on progress.",
+        "Experiment with multiple tasks simultaneously."
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Describe your ideal learning environment.",
+      "type": "free-text",
+      "sample_options": [
+        "Structured guidance with clear goals.",
+        "Hands-on experimentation with feedback.",
+        "Collaborative learning with peers or AI.",
+        "Open-ended exploration at my own pace."
+      ]
+    },
+    {
+      "id": 41,
+      "question": "How do you handle feedback that contradicts your expectations?",
+      "type": "free-text",
+      "sample_options": [
+        "Analyze and incorporate relevant points.",
+        "Discuss with others to clarify.",
+        "Test ideas based on feedback experimentally.",
+        "Adjust intuitively based on judgment."
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Give an example of a time you combined creativity with structure.",
+      "type": "free-text",
+      "sample_options": [
+        "Followed a plan but added personal innovations.",
+        "Used rules as guidelines while exploring ideas.",
+        "Collaborated with others to combine methods.",
+        "Experimented freely but ensured structural consistency."
+      ]
+    },
+    {
+      "id": 43,
+      "question": "How do you approach brainstorming sessions?",
+      "type": "free-text",
+      "sample_options": [
+        "Systematically generate and organize ideas.",
+        "Observe others then contribute ideas.",
+        "Collaborate with AI or peers to co-create.",
+        "Freely explore all ideas without judgment."
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Describe a situation where patience helped you achieve a better result.",
+      "type": "free-text",
+      "sample_options": [
+        "Waiting to gather data improved accuracy.",
+        "Discussing thoroughly before acting led to better outcomes.",
+        "Collaborating over time led to stronger solutions.",
+        "Experimenting over multiple iterations improved results."
+      ]
+    },
+    {
+      "id": 45,
+      "question": "How do you balance efficiency with thoroughness?",
+      "type": "free-text",
+      "sample_options": [
+        "Prioritize key tasks but document details.",
+        "Collaborate to delegate for efficiency.",
+        "Iteratively adjust approach based on results.",
+        "Experiment freely to optimize balance."
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Give an example of when collaboration enhanced your output.",
+      "type": "free-text",
+      "sample_options": [
+        "Combining structured input from peers improved outcomes.",
+        "Guided collaboration led to efficiency gains.",
+        "Interactive collaboration led to creative solutions.",
+        "Freely experimenting with collaborators yielded novel ideas."
+      ]
+    },
+    {
+      "id": 47,
+      "question": "How do you make decisions under high uncertainty?",
+      "type": "free-text",
+      "sample_options": [
+        "Use systematic analysis and expected value calculations.",
+        "Consult reliable sources or advisors first.",
+        "Test multiple options experimentally.",
+        "Rely on intuition and prior experience."
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Describe how you adapt your communication style to different audiences.",
+      "type": "free-text",
+      "sample_options": [
+        "Adjust formality and detail depending on audience.",
+        "Provide structured explanations for clarity.",
+        "Collaborate to find shared understanding.",
+        "Use intuitive and flexible style depending on context."
+      ]
+    },
+    {
+      "id": 49,
+      "question": "How do you ensure ethical considerations are met in your work?",
+      "type": "free-text",
+      "sample_options": [
+        "Follow established guidelines strictly.",
+        "Consult peers or experts for advice.",
+        "Evaluate outcomes iteratively.",
+        "Rely on judgment and intuition to maintain ethics."
+      ]
+    },
+    {
+      "id": 50,
+      "question": "How would you want an AI to anticipate your needs in advance?",
+      "type": "free-text",
+      "sample_options": [
+        "AI predicts next steps and provides clear reasoning.",
+        "AI suggests actionable options to evaluate.",
+        "AI collaborates interactively, anticipating context.",
+        "AI experiments proactively and adapts to my style."
+      ]
+    }
+  ]
+}
