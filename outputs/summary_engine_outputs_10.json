@@ -1,0 +1,774 @@
+[
+  {
+    "test_id": 1,
+    "simulated_answers": {
+      "q1": "Structured",
+      "q4": "I prefer structured step-by-step guidance but like occasional creative suggestions.",
+      "q12": "I enjoy tasks where creativity is key, especially when brainstorming solutions.",
+      "q18": "I test AI suggestions but rely on my judgment when deadlines are tight.",
+      "q37": "I adapt quickly to changes but prefer some structure to stay organized.",
+      "q42": "I value fairness in decisions but can prioritize pragmatic results when necessary."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "tone_preference": "Formal",
+      "risk_behavior": "Low risk tolerance",
+      "creativity_preference": "Structured approach"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.8
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'tone_preference': 'Formal', 'risk_behavior': 'Low risk tolerance', 'creativity_preference': 'Structured approach'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.8}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 2,
+    "simulated_answers": {
+      "q1": "Hands-on experimentation",
+      "q4": "I often experiment freely, trying unconventional solutions until I find what works.",
+      "q12": "Creativity is essential; I like to brainstorm outside traditional methods.",
+      "q18": "I experiment under pressure and adjust rapidly based on results.",
+      "q37": "I learn from mistakes quickly and adapt without overthinking.",
+      "q42": "I try to innovate while keeping some structure to avoid chaos."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "tone_preference": "Formal",
+      "risk_behavior": "High risk tolerance"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'tone_preference': 'Formal', 'risk_behavior': 'High risk tolerance'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 3,
+    "simulated_answers": {
+      "q1": "Quick overview",
+      "q4": "I like to get a general sense first, then dive deeper if needed.",
+      "q12": "Creativity is nice-to-have but not essential for my tasks.",
+      "q18": "I evaluate AI suggestions cautiously before acting.",
+      "q37": "I observe first, then implement gradually.",
+      "q42": "I follow rules but incorporate small personal tweaks when appropriate."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed, step-by-step guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "creativity_preference": "High creativity",
+      "tone_preference": "Formal",
+      "risk_behavior": "High risk tolerance"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed, step-by-step guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'creativity_preference': 'High creativity', 'tone_preference': 'Formal', 'risk_behavior': 'High risk tolerance'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 4,
+    "simulated_answers": {
+      "q1": "Explore examples yourself",
+      "q4": "I review examples and try to derive my own methods from them.",
+      "q12": "I like creative problem-solving but within structured boundaries.",
+      "q18": "I test AI outputs experimentally and adapt them to my context.",
+      "q37": "I quickly adjust to changes by learning from examples.",
+      "q42": "I combine creative and structured approaches when solving tasks."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "risk_behavior": "High risk tolerance",
+      "tone_preference": "Formal",
+      "creativity_preference": "High creativity"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.9,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'risk_behavior': 'High risk tolerance', 'tone_preference': 'Formal', 'creativity_preference': 'High creativity'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.9, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 5,
+    "simulated_answers": {
+      "q1": "Step-by-step detailed guidance",
+      "q4": "I follow stepwise instructions closely but add small creative touches.",
+      "q12": "Creativity is important for fine-tuning solutions.",
+      "q18": "I methodically test AI suggestions and adapt cautiously.",
+      "q37": "I am patient and deliberate when adapting to new tasks.",
+      "q42": "I integrate creativity into structured workflows."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "creativity_preference": "High creativity"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'creativity_preference': 'High creativity'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 6,
+    "simulated_answers": {
+      "q1": "Hands-on experimentation",
+      "q4": "I collaborate with AI to co-create and test unconventional ideas.",
+      "q12": "Creativity is essential; I explore all possibilities.",
+      "q18": "I take risks to achieve innovative outcomes under pressure.",
+      "q37": "I adapt rapidly and embrace uncertainty.",
+      "q42": "I combine innovation with minimal structure."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "tone_preference": "Formal",
+      "creativity_preference": "High creativity",
+      "risk_behavior": "High risk tolerance"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'tone_preference': 'Formal', 'creativity_preference': 'High creativity', 'risk_behavior': 'High risk tolerance'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 7,
+    "simulated_answers": {
+      "q1": "Quick overview",
+      "q4": "I like concise guidance and minimal AI interaction.",
+      "q12": "Creativity is optional; efficiency is more important.",
+      "q18": "I follow instructions carefully but avoid experimentation.",
+      "q37": "I prefer observing and learning gradually.",
+      "q42": "I adhere to rules with little personal adaptation."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers exploratory guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Enjoys interactive, collaborative AI interactions",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "creativity_preference": "Structured approach",
+      "tone_preference": "Formal"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers exploratory guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Enjoys interactive, collaborative AI interactions', 'ethics_focus': 'Strongly guided by ethical preferences', 'creativity_preference': 'Structured approach', 'tone_preference': 'Formal'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 8,
+    "simulated_answers": {
+      "q1": "Hands-on experimentation",
+      "q4": "I adjust my approach depending on the problem and context.",
+      "q12": "Creativity is important when needed, otherwise I follow structure.",
+      "q18": "I experiment or evaluate based on time constraints.",
+      "q37": "I adapt my workflow rapidly to changing situations.",
+      "q42": "I balance innovation and structure flexibly."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed, step-by-step guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "tone_preference": "Formal",
+      "risk_behavior": "High risk tolerance"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed, step-by-step guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'tone_preference': 'Formal', 'risk_behavior': 'High risk tolerance'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 9,
+    "simulated_answers": {
+      "q1": "Structured",
+      "q4": "I systematically analyze problems and implement step-by-step solutions.",
+      "q12": "Creativity is useful for refining solutions.",
+      "q18": "I carefully test AI suggestions and prioritize accuracy.",
+      "q37": "I adapt methodically to ensure minimal mistakes.",
+      "q42": "I integrate creativity cautiously within structured approaches."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "risk_behavior": "High risk tolerance",
+      "creativity_preference": "High creativity"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.5
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.2
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.5
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'risk_behavior': 'High risk tolerance', 'creativity_preference': 'High creativity'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.5}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.2}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.5}}."
+  },
+  {
+    "test_id": 10,
+    "simulated_answers": {
+      "q1": "Explore examples yourself",
+      "q4": "I experiment freely and enjoy playful approaches to problem-solving.",
+      "q12": "Creativity drives my work; I prioritize it over strict rules.",
+      "q18": "I test AI outputs in unconventional ways under time pressure.",
+      "q37": "I adapt quickly and enjoy learning through experimentation.",
+      "q42": "I combine humor and creativity within flexible structures."
+    },
+    "structured_profile": {
+      "model_preference": "GPT-5",
+      "formality": "Balanced",
+      "tone": "Optimistic",
+      "decision_style": "Data-driven",
+      "risk_tolerance": "Moderate",
+      "creativity_level": "High",
+      "ethical_priorities": "Fairness and honesty",
+      "communication_style": "Concise but empathetic",
+      "patience_level": "High",
+      "humor_preference": "Occasional light humor",
+      "goal_focus": "Practical problem solving",
+      "collaboration_preference": "Co-creative",
+      "feedback_style": "Direct but constructive",
+      "time_horizon": "Medium-term (weeks to months)",
+      "personality_traits": [
+        "curious",
+        "methodical",
+        "adaptive"
+      ]
+    },
+    "meta_inferences": {
+      "learning_style": "Prefers detailed guidance",
+      "approach_to_problem": "Leans toward innovative, experimental solutions",
+      "collaboration_style": "Collaborative",
+      "ethics_focus": "Strongly guided by ethical preferences",
+      "tone_preference": "Formal"
+    },
+    "subtraits": {
+      "learning": {
+        "depth_vs_breadth": 0.4,
+        "analytical_vs_intuitive": 0.5
+      },
+      "decision_making": {
+        "risk_tolerance": 0.3,
+        "ambiguity_tolerance": 0.9
+      },
+      "creativity": {
+        "originality": 0.4,
+        "procedural_thinking": 0.5
+      },
+      "communication": {
+        "formality": 0.5,
+        "empathy": 0.5,
+        "humor": 0.7
+      },
+      "collaboration": {
+        "preference": "solo",
+        "patience": 0.5
+      },
+      "ethics": {
+        "moral_rigidity": 0.5,
+        "fairness_orientation": 0.5
+      },
+      "motivation": {
+        "curiosity_drive": 0.4,
+        "achievement_focus": 0.5
+      },
+      "personality": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "adaptability": 0.85
+      }
+    },
+    "narrative": "The user intends to work with GPT-5.\nMeta-inferences: {'learning_style': 'Prefers detailed guidance', 'approach_to_problem': 'Leans toward innovative, experimental solutions', 'collaboration_style': 'Collaborative', 'ethics_focus': 'Strongly guided by ethical preferences', 'tone_preference': 'Formal'}.\nSub-traits extracted from responses: {'learning': {'depth_vs_breadth': 0.4, 'analytical_vs_intuitive': 0.5}, 'decision_making': {'risk_tolerance': 0.3, 'ambiguity_tolerance': 0.9}, 'creativity': {'originality': 0.4, 'procedural_thinking': 0.5}, 'communication': {'formality': 0.5, 'empathy': 0.5, 'humor': 0.7}, 'collaboration': {'preference': 'solo', 'patience': 0.5}, 'ethics': {'moral_rigidity': 0.5, 'fairness_orientation': 0.5}, 'motivation': {'curiosity_drive': 0.4, 'achievement_focus': 0.5}, 'personality': {'openness': 0.5, 'conscientiousness': 0.5, 'adaptability': 0.85}}."
+  }
+]
