@@ -30,8 +30,18 @@ INSIGHT_CATEGORIES = {
 # ---------------------------
 # Core engine functions
 # ---------------------------
-def analyze_free_text_semantic(responses: Dict[str, str]) -> Dict:
-    insights = {}
+def analyze_free_text_semantic(responses: Dict[str, str]) -> Dict[str, str]:
+    """
+    Analyzes semantic meaning of free-text responses and extracts insights.
+
+    Args:
+        responses (Dict[str, str]): A dictionary mapping question identifiers to user free-text responses.
+
+    Returns:
+        Dict[str, str]: A dictionary of insights based on the semantic proximity of responses
+        to predefined categories. Example keys include 'learning_style', 'creativity_preference'.
+    """
+    insights: Dict[str, str] = {}
     for key, text in responses.items():
         text_vec = embed_text(text)
         best_match = None
@@ -55,8 +65,18 @@ def analyze_free_text_semantic(responses: Dict[str, str]) -> Dict:
             insights["ethics_focus"] = "Strong ethical focus" if "strong" in best_match else "Flexible ethics"
     return insights
 
-def analyze_subtraits(responses: Dict[str, str]) -> Dict[str, Dict]:
-    subtraits = {
+def analyze_subtraits(responses: Dict[str, str]) -> Dict[str, Dict[str, float | str]]:
+    """
+    Extracts raw numerical or string sub-traits from free text based on keyword matches.
+
+    Args:
+        responses (Dict[str, str]): A dictionary mapping question identifiers to user free-text responses.
+
+    Returns:
+        Dict[str, Dict[str, float | str]]: A structured dictionary of inferred sub-traits and their
+        calculated values (from 0.0 to 1.0 or qualitative labels).
+    """
+    subtraits: Dict[str, Dict[str, float | str]] = {
         "learning": {}, "decision_making": {}, "creativity": {},
         "communication": {}, "collaboration": {}, "ethics": {},
         "motivation": {}, "personality": {}
@@ -83,8 +103,20 @@ def analyze_subtraits(responses: Dict[str, str]) -> Dict[str, Dict]:
         subtraits["personality"]["adaptability"] = 0.85 if "flexible" in text_lower else 0.5
     return subtraits
 
-def generate_meta_inferences(profile: Dict, free_text_insights: Dict) -> Dict:
-    meta = {}
+def generate_meta_inferences(profile: Dict[str, str], free_text_insights: Dict[str, str]) -> Dict[str, str]:
+    """
+    Synthesizes structured profile data and free-text insights to generate higher-level
+    meta-inferences about the user's personality and preferences.
+
+    Args:
+        profile (Dict[str, str]): The user's structured profile or preferences.
+        free_text_insights (Dict[str, str]): Key-value insights generated via semantic analysis.
+
+    Returns:
+        Dict[str, str]: A dictionary containing high-level inferences like preferred approach to
+        problem solving and learning.
+    """
+    meta: Dict[str, str] = {}
     if profile.get("patience_level") in ["High", "Medium"]:
         meta["learning_style"] = "Prefers detailed, step-by-step guidance"
     else:
@@ -101,7 +133,19 @@ def generate_meta_inferences(profile: Dict, free_text_insights: Dict) -> Dict:
     meta.update(free_text_insights)
     return meta
 
-def build_full_profile(profile: Dict, free_text_responses: Dict) -> Dict:
+def build_full_profile(profile: Dict[str, str], free_text_responses: Dict[str, str]) -> Dict[str, object]:
+    """
+    Constructs a complete AI personality profile based on quantitative profile parameters
+    and qualitative free-text responses.
+
+    Args:
+        profile (Dict[str, str]): Initial user profile parameters.
+        free_text_responses (Dict[str, str]): User-provided qualitative text answers.
+
+    Returns:
+        Dict[str, object]: A comprehensive profile containing the structured elements,
+        sub-traits, meta-inferences, and a synthesized narrative overview.
+    """
     free_text_insights = analyze_free_text_semantic(free_text_responses)
     subtraits = analyze_subtraits(free_text_responses)
     meta = generate_meta_inferences(profile, free_text_insights)

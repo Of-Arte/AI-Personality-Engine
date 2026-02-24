@@ -49,3 +49,9 @@ To run the automated test suite and view simulated profile generation:
 python run_summary_test.py
 ```
 Outputs will be saved to the `outputs/` directory.
+
+## Contributing
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on setting up the environment, running tests, and submitting pull requests.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
